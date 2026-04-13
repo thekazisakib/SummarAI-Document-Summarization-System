@@ -1,13 +1,41 @@
-# SummarAI-End-to-End-Automated-Text-Summarization
+# SummarAI – Document Summarization System
 
+A simple NLP-based system for generating concise summaries from documents.
 
-## Workflows
+Built to process unstructured text and produce readable summaries using transformer-based models.
 
-1. Update config.yaml
-2. Update params.yaml
-3. Update entity
-4. Update the configuration manager in src config
-5. update the conponents
-6. update the pipeline
-7. update the main.py
-8. update the app.py
+---
+
+## What it does
+
+- generates summaries from input text or documents  
+- handles unstructured data with preprocessing  
+- supports batch processing for multiple documents  
+- improves readability and reduces manual effort  
+
+---
+
+## How it works
+
+1. Load and preprocess text data  
+2. Clean and structure input documents  
+3. Pass text through a transformer-based model (T5)  
+4. Generate concise summaries  
+5. Output formatted results  
+
+---
+
+## Tech stack
+
+Python • HuggingFace Transformers • NLP preprocessing • MLflow  
+
+---
+
+## Run locally
+
+```bash
+git clone https://github.com/thekazisakib/SummarAI-End-to-End-Automated-Text-Summarization.git
+cd SummarAI-End-to-End-Automated-Text-Summarization
+
+pip install -r requirements.txt
+python app.py
