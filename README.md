@@ -1,6 +1,6 @@
 # SummarAI – Document Summarization System
 
-A simple NLP-based system for generating concise summaries from documents.
+A simple NLP system for generating concise summaries from documents.
 
 Built to process unstructured text and produce readable summaries using transformer-based models.
 
@@ -27,15 +27,15 @@ Built to process unstructured text and produce readable summaries using transfor
 
 ## Tech stack
 
-Python • HuggingFace Transformers • NLP preprocessing • MLflow  
+Python • HuggingFace Transformers • MLflow  
 
 ---
 
 ## Run locally
 
 ```bash
-git clone https://github.com/thekazisakib/SummarAI-End-to-End-Automated-Text-Summarization.git
-cd SummarAI-End-to-End-Automated-Text-Summarization
+git clone https://github.com/thekazisakib/SummarAI-Document-Summarization-System.git
+cd SummarAI-Document-Summarization-System
 
 pip install -r requirements.txt
 python app.py
